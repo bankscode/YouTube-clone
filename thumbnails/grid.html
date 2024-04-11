@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Practice</title>
+
+    <style>
+
+      body {
+        font-family: Roboto, Arial;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .main-container {
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .left-section {
+        display: flex;
+        align-items: center;
+      }
+
+      .pet-image {
+        width: 70px;
+        height: 70px;
+        border-radius: 40px;
+        object-fit: cover;
+      }
+
+      .profile-pic {
+        margin-top: 4px;
+        margin-right: 10px;
+      }
+
+      .pet-name,
+      .pet-description,
+      .pet-popularity {
+        margin-bottom: 8px;
+      }
+
+      .pet-name {
+        font-weight: bold;
+      }
+
+      .pet-description,
+      .pet-popularity {
+        font-size: 14px;
+        color: gray;
+      }
+
+      .middle-left-section {
+        margin-top: 6px;
+      }
+
+      .follow-button {
+        background-color: #008DDA;
+        color: white;
+        border: none;
+        padding: 10px 18px;
+        font-weight: bold;
+        border-radius: 3px;
+      }
+
+      .left-section {
+        margin-left: 15px;
+      }
+
+      .right-section {
+        margin-right: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="main-container">
+      <div class="left-section">
+        <div class="profile-pic">
+          <img class="pet-image" src="/thumbnails/cat.jpeg" alt="">
+        </div>
+        <div class="middle-left-section">
+          <p class="pet-name">Oliver</p>
+          <p class="pet-description">The Cat</p>
+          <p class="pet-popularity">Popular</p>
+        </div>
+      </div>
+  
+      <div class="right-section">
+        <button class="follow-button">
+          Follow
+        </button>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="left-section">
+        <div class="profile-pic">
+          <img class="pet-image" src="/thumbnails/rex.jpeg" alt="">
+        </div>
+        <div class="middle-left-section">
+          <p class="pet-name">Mimi</p>
+          <p class="pet-description">Sleepy Dog</p>
+          <p class="pet-popularity">Popular</p>
+        </div>
+      </div>
+  
+      <div class="right-section">
+        <button class="follow-button">
+          Follow
+        </button>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="left-section">
+        <div class="profile-pic">
+          <img class="pet-image" src="/thumbnails/mimi.webp" alt="">
+        </div>
+        <div class="middle-left-section">
+          <p class="pet-name">Rex</p>
+          <p class="pet-description">Happy Bulldog</p>
+          <p class="pet-popularity">Popular</p>
+        </div>
+      </div>
+  
+      <div class="right-section">
+        <button class="follow-button">
+          Follow
+        </button>
+      </div>
+    </div>
+
+   
+    <!-- <div style="
+      display: grid;
+      grid-template-columns: 100px 100px;">
+      <div style="background-color: lightblue;">div 1</div>
+      <div style="background-color: lightpink;">div 2 <p>text</p></div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px 200px;
+      margin-top: 30px;">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">100px <p>text</p></div>
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">100px <p>text</p></div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      margin-top: 30px;">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">1fr</div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 2fr;
+      margin-top: 30px;">
+      <div style="background-color: lightblue;">1fr</div>
+      <div style="background-color: lightpink;">1fr</div>
+      <div style="background-color: lightblue;">2fr</div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 30px;
+      column-gap: 20px;
+      row-gap: 40px;">
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightpink; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightpink; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightpink; height: 200px">1fr</div>
+    </div> -->
+  </body>
+</html>
